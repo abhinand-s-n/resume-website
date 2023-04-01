@@ -125,8 +125,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -135,38 +133,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Abhinand and I enjoy undestanding peoples perspective and aligning
+              it with companies mission and vission. My interest in psychology started back in 2017
+              when I started watching documentaries, biographies, biopics. I realised have a natural
+              curiosity about human behavior, motivation, and psychology, and want to apply these
+              principles to the workplace. I am attracted to the dynamic and evolving nature of HR,
+              as it requires constant adaptation to new technologies, trends, and regulations.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I’ve had the privilege of volenteering at{' '}
+              <a href="https://us.mullenlowe.com/">NCC</a>,{' '}
+              <a href="https://starry.com/">Positive Intervention for Stray Dogs (NGO)</a>, and a
+              few courses like <a href="https://www.apple.com/">Psychology</a>,{' '}
+              <a href="https://scout.camd.northeastern.edu/">Mountaineering</a>,{' '}
+              <a href="https://scout.camd.northeastern.edu/">Strategic Management</a>. My current
+              days are spent pursuing my PG in Management specializing in Human Resources at{' '}
+              <a href="https://indiraiimppgdm.edu.in/" target="_blank" rel="noreferrer">
+                {' '}
+                IIMP PGDM{' '}
+              </a>
             </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>

@@ -60,16 +60,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Abhinand S</h2>;
+  const three = <h3 className="big-heading">I manage and build organizations workforce.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        As an HR professional, I specialize in managing and developing exceptional employee
+        experiences to ensure a thriving and productive workforce. Currently, I’m pursuing my PG in
+        Management specializing in Human Resources at{' '}
+        <a href="https://indiraiimppgdm.edu.in/" target="_blank" rel="noreferrer">
+          IIMP PGDM
         </a>
         .
       </p>
@@ -78,10 +78,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="mailto:abhinandsuma42@gmail.com"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Connect with me!
     </a>
   );
 
